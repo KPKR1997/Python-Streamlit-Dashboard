@@ -23,6 +23,7 @@ df = df[df.apply(lambda x: (x != '').all(), axis=1)]  # Removes rows with empty 
 df = df.drop_duplicates(subset=["Startup"])
 df['City'] = df['City'].str.replace('Bangalore', 'Bengaluru')
 df['City'] = df['City'].str.replace('Gurgaon', 'Gurugram')
+df['City'] = df['City'].str.replace('Delhi', 'New Delhi')
 
 
 
