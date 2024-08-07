@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 #import mysql connection file
-from mysql_connection import *
+#from mysql_connection import *
 
 #config page heads
 st.set_page_config("Startup funding in India", page_icon="", layout="wide")
@@ -11,7 +11,7 @@ st.subheader("India Startup funding distribution")
 
 #Frame data from database
 
-result = view_all_data()
+result = pd.read_csv("STARTUP_DATA.csv")
 df = pd.DataFrame(result, columns=[ "Startup","Industry", "City", "Amount"])
 
 #Clean data
