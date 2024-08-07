@@ -1,6 +1,5 @@
 import streamlit as st
 import plotly.express as px
-import plotly.subplots as sp
 import pandas as pd
 
 #import mysql connection file
