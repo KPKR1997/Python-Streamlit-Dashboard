@@ -3,4 +3,8 @@ streamlit
 plotly
 mysql.connector
 streamlit_option_menu
+<<<<<<< HEAD
 streamlit_extras
+=======
+streamlit_extras
+>>>>>>> 5ce16f0093c6abc1cc5d9c6c516872103cf32c41
